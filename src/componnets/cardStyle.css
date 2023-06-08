@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    flex-flow: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px rgba(56, 56, 56, 0.228);
+    border: 1px solid rgba(128, 128, 128, 0.441);
+    position: relative;
+    overflow: hidden;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__title {
+    padding: 10px 15px;
+}
+
+.card__description {
+    padding: 10px 15px;
+}
+
+.card__callToaction {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    height: 80px;
+    padding: 5px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.card__share {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+
+.card__learnMore {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
